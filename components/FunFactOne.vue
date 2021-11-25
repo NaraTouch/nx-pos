@@ -5,45 +5,42 @@
                 <div class="col-sm-6 col-md-4 funfact-item">
                     <div class="inner-content">
                         <div class="icon-box">
-                            <img class="icon" src="/images/icons/f1.png" alt="Image">
                             <img class="shape-img" src="/images/shape/4.png" alt="Image">
                         </div>
                         <div class="content">
                             <div class="number">
-                                <h2><span class="counter-animate">598</span>K</h2>
+                                <h2><span class="counter-animate">100</span></h2>
                             </div>
                             <img class="line-shape" src="/images/shape/funfact-line1.png" alt="Image">
-                            <p class="title">// Poor People</p>
+                            <p class="title">//2021 POS Member</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 funfact-item">
                     <div class="inner-content">
                         <div class="icon-box">
-                            <img class="icon" src="/images/icons/f2.png" alt="Image">
                             <img class="shape-img" src="/images/shape/4.png" alt="Image">
                         </div>
                         <div class="content">
                             <div class="number">
-                                <h2><span class="counter-animate">897</span>M</h2>
+                                <h2><span class="counter-animate">70</span></h2>
                             </div>
                             <img class="line-shape" src="/images/shape/funfact-line1.png" alt="Image">
-                            <p class="title">// Fund raised</p>
+                            <p class="title">//2021 Ecommerce has lunch</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 funfact-item">
                     <div class="inner-content">
                         <div class="icon-box">
-                            <img class="icon" src="/images/icons/f3.png" alt="Image">
                             <img class="shape-img" src="/images/shape/4.png" alt="Image">
                         </div>
                         <div class="content">
                             <div class="number">
-                                <h2><span class="counter-animate">998</span>+</h2>
+                                <h2><span class="counter-animate">60</span>+</h2>
                             </div>
                             <img class="line-shape" src="/images/shape/funfact-line1.png" alt="Image">
-                            <p class="title">// Active Member</p>
+                            <p class="title">//2021 Feature has embed</p>
                         </div>
                     </div>
                 </div>

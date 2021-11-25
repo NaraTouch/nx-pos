@@ -5,15 +5,9 @@
 
         <OffCanvasMobileMenu />
 
-        <Breadcrumb :items="items" title="Causes" />
+        <Breadcrumb :items="items" title="Pricing Details" />
 
-        <CausesWrapper />
-
-        <FunFactOne />
-
-        <TestimonialOne />
-
-        <Sponsor />
+        <PricingDetailsContent />
 
         <Footer />
 
@@ -33,10 +27,7 @@
             Header: () => import('@/components/Header'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             Breadcrumb: () => import('@/components/Breadcrumb'),
-            CausesWrapper: () => import('@/components/CausesWrapper'),
-            FunFactOne: () => import('@/components/FunFactOne'),
-            TestimonialOne: () => import('@/components/TestimonialOne'),
-            Sponsor: () => import('@/components/Sponsor'),
+            PricingDetailsContent: () => import('@/components/PricingDetailsContent'),
             Footer: () => import('@/components/Footer'),
         },
 
@@ -48,7 +39,7 @@
                         to: "/"
                     },
                     {
-                        text: 'Causes',
+                        text: 'Causes Details',
                         active: true
                     }
                 ]
@@ -57,7 +48,7 @@
 
         head() {
             return {
-                title: 'Causes'
+                title: 'Causes Details'
             }
         },
     };

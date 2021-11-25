@@ -5,7 +5,7 @@
                 <div class="col-lg-4">
                     <div class="section-title text-center text-lg-start">
                         <h2 class="title title-style mt-xl-30">
-                            Our Current Sponsors. 
+                            Our Big Partner.
                             <img class="img-shape" src="/images/shape/3.png" alt="Image-Givest">
                         </h2>
                     </div>

@@ -129,7 +129,7 @@ table p {
     transition: $transition;
     overflow: hidden;
     background-color: $theme-color;
-    background: linear-gradient(to left, #FEA444 0%, #FC6539 100%);
+    background: linear-gradient(to left, #00a0d2 0%, #015f92 100%);
 
     @media #{$xxs-device}{
         width: 40px;

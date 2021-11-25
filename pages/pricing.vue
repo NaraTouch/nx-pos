@@ -1,13 +1,13 @@
 <template>
-    <div class="blog-page-wrapper">
+    <div class="main-container">
 
         <Header />
 
         <OffCanvasMobileMenu />
 
-        <Breadcrumb :items="items" title="Blog Details" />
+        <Breadcrumb :items="items" title="Pricing" />
 
-        <BlogDetailsContent />
+        <PricingWrapper />
 
         <Footer />
 
@@ -27,7 +27,7 @@
             Header: () => import('@/components/Header'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             Breadcrumb: () => import('@/components/Breadcrumb'),
-            BlogDetailsContent: () => import('@/components/BlogDetailsContent'),
+            PricingWrapper: () => import('@/components/PricingWrapper'),
             Footer: () => import('@/components/Footer'),
         },
 
@@ -39,7 +39,7 @@
                         to: "/"
                     },
                     {
-                        text: 'Blog Details',
+                        text: 'pricing',
                         active: true
                     }
                 ]
@@ -48,7 +48,7 @@
 
         head() {
             return {
-                title: 'Blog Details'
+                title: 'Pricing'
             }
         },
     };

@@ -34,19 +34,19 @@
                 services: [
                     {
                         icon: "/images/icons/s1.png",
-                        title: "Clean Water",
+                        title: "NX POS",
                         desc: "Lorem Ipsum is simply dummy text the printing typesetng industry lorem Ipsum has been industry standard dummy text ever since.",
                         addClassName: "item-one"
                     },
                     {
                         icon: "/images/icons/s2.png",
-                        title: "Healthy Food",
+                        title: "Store Owner",
                         desc: "Lorem Ipsum is simply dummy text the printing typesetng industry lorem Ipsum has been industry standard dummy text ever since.",
                         addClassName: "item-two"
                     },
                     {
                         icon: "/images/icons/s3.png",
-                        title: "Medical Help",
+                        title: "Feature Addon",
                         desc: "Lorem Ipsum is simply dummy text the printing typesetng industry lorem Ipsum has been industry standard dummy text ever since.",
                         addClassName: "item-three"
                     }

@@ -15,6 +15,10 @@
                             <Navigation />
                         </div>
                         <div class="header-action-area">
+                            <n-link to="/contact" class="btn-theme btn-gradient btn-slide btn-style">
+                                Sign Up
+                                <img class="icon icon-img" src="/images/icons/arrow-line-right2.png" alt="Icon">
+                            </n-link>
                             <div class="mobile-menu-toggle d-lg-none">
                                 <button class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                     <i class="icon-top"></i>
@@ -22,10 +26,6 @@
                                     <i class="icon-bottom"></i>
                                 </button>
                             </div>
-                            <n-link to="/contact" class="btn-theme btn-gradient btn-slide btn-style">
-                                Give Support 
-                                <img class="icon icon-img" src="/images/icons/arrow-line-right2.png" alt="Icon">
-                            </n-link>
                         </div>
                     </div>
                 </div>

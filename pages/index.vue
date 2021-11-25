@@ -9,19 +9,9 @@
 
         <ServiceOne />
 
-        <AboutOne />
-
         <CausesOne />
 
-        <DonationStyleOne />
-
         <FunFactOne />
-
-        <EventsOne />
-
-        <TestimonialOne />
-
-        <BlogStyleOne />
 
         <Sponsor />
 
@@ -44,13 +34,8 @@
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             HeroOne: () => import('@/components/HeroOne'),
             ServiceOne: () => import('@/components/ServiceOne'),
-            AboutOne: () => import('@/components/AboutOne'),
             CausesOne: () => import('@/components/CausesOne'),
-            DonationStyleOne: () => import('@/components/DonationStyleOne'),
             FunFactOne: () => import('@/components/FunFactOne'),
-            EventsOne: () => import('@/components/EventsOne'),
-            TestimonialOne: () => import('@/components/TestimonialOne'),
-            BlogStyleOne: () => import('@/components/BlogStyleOne'),
             Sponsor: () => import('@/components/Sponsor'),
             Footer: () => import('@/components/Footer'),
         },

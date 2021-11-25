@@ -1,8 +1,8 @@
 <template>
     <div class="donation-form bgcolor-theme3">
         <div class="section-title">
-            <h5 class="subtitle line-theme-color mb-14">Make A Donation</h5>
-            <h2 class="title text-white">Donate Now</h2>
+            <h5 class="subtitle line-theme-color mb-14">Payment Form</h5>
+            <h2 class="title text-white">Pay Now</h2>
             <img class="line-shape" src="/images/shape/line-t3.png" alt="image">
         </div>
         <form>

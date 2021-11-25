@@ -7,18 +7,18 @@
                         <div class="content">
                             <div class="subtitle-content">
                                 <img src="/images/icons/1.png" alt="image">
-                                <h6>Change The World.</h6>
+                                <h6>Let Upgrade Your Bussiness.</h6>
                             </div>
                             <div class="tittle-wrp">
-                                <h2>Need Your Big Hand For <span>Change</span> The World.</h2>
+                                <h2>Grow your retail faster <span>with</span> Hike NX software.</h2>
                             </div>
                             <div class="btn-wrp">
                                 <n-link to="/causes" class="btn-theme btn-gradient btn-slide btn-style">
-                                    All Causes 
+                                    7 Days/Trial 
                                     <img class="icon icon-img" src="/images/icons/arrow-line-right2.png" alt="Icon">
                                 </n-link>
                                 <n-link to="/contact" class="btn-theme btn-border btn-black btn-style">
-                                    Donate Now 
+                                    Buy Now 
                                     <img class="icon icon-img" src="/images/icons/arrow-right-line-dark.png" alt="Icon">
                                 </n-link>
                             </div>
@@ -39,17 +39,12 @@
                                     </span>
                                 </div>
                             </div>
-                            <!-- <div class="shape-style1 scene">
-                                <span class="scene-layer" data-depth="0.30">
-                                    <img src="/images/shape/1.png" alt="Image">
-                                </span>
-                            </div>  -->
                             <ShapeWithAnimation addClassName="shape-style1" dataDepth="0.3" imgSrc="/images/shape/1.png" />
                             <div class="donate-circle-wrp">
                                 <div class="donate-content">
                                     <div class="raised-amount">$865M</div>
                                     <img class="line-shape-img" src="/images/shape/line-s2.png" alt="Image">
-                                    <h5 class="donate-title">Total Raised</h5>
+                                    <h5 class="donate-title">Top retail earning</h5>
                                 </div>
                             </div>
                         </div>

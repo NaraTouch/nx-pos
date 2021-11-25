@@ -1,6 +1,6 @@
 <template>
     <div class="donners-info">
-        <h3>Great Donners</h3>
+        <h3>Features</h3>
         <div class="donners-item">
             <div class="donner-item" v-for="(donner, index) in donnerList" :key="index">
                 <img :src="donner.imgSrc" :alt="donner.alt">
