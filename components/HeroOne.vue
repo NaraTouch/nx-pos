@@ -13,7 +13,7 @@
                                 <h2>Grow your retail faster <span>with</span> Hike NX software.</h2>
                             </div>
                             <div class="btn-wrp">
-                                <n-link to="/causes" class="btn-theme btn-gradient btn-slide btn-style">
+                                <n-link to="/pricing" class="btn-theme btn-gradient btn-slide btn-style">
                                     7 Days/Trial 
                                     <img class="icon icon-img" src="/images/icons/arrow-line-right2.png" alt="Icon">
                                 </n-link>

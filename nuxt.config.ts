@@ -1,5 +1,9 @@
 
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+
+export default defineNuxtConfig({
+    bridge: true,
+    target: 'static',
     server: {
         port: 8080 // default: 3000
     },
@@ -7,10 +11,10 @@ export default {
         fallback: true
     },
 
-    // Global page headers (https://go.nuxtjs.dev/config-head)
+    // // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-        title: 'Givest',
-        titleTemplate: '%s || Givest',
+        title: 'NX POS',
+        titleTemplate: '%s || NX POS',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,7 +25,7 @@ export default {
         ],
     },
 
-    // Global CSS (https://go.nuxtjs.dev/config-css)
+    // // Global CSS (https://go.nuxtjs.dev/config-css)
     css: [
         '~/assets/scss/style.scss'
     ],
@@ -30,7 +34,7 @@ export default {
         linkExactActiveClass: 'active',
     },
 
-    // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+    // // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
     plugins: [
         '~/plugins/vue-awesome-swiper.js',
         {
@@ -43,14 +47,14 @@ export default {
         },
     ],
 
-    // Auto import components (https://go.nuxtjs.dev/config-components)
+    // // Auto import components (https://go.nuxtjs.dev/config-components)
     components: true,
 
-    // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
+    // // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
     buildModules: [
     ],
 
-    // Modules (https://go.nuxtjs.dev/config-modules)
+    // // Modules (https://go.nuxtjs.dev/config-modules)
     modules: [
         // https://go.nuxtjs.dev/bootstrap
         'bootstrap-vue/nuxt',
@@ -63,10 +67,10 @@ export default {
         ]
     },
 
-    // Build Configuration (https://go.nuxtjs.dev/config-build)
+    // // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {
         extractCSS: true,
         extend (config, ctx) {
         },
     },
-}
+})

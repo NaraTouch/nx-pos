@@ -23,7 +23,7 @@
                             <div class="admin">
                                 
                             </div>
-                            <n-link to="/donation" class="btn-theme btn-border-gradient gray-border btn-size-md">
+                            <n-link to="/pricing" class="btn-theme btn-border-gradient gray-border btn-size-md">
                                 <span>
                                     Buy Now
                                     <img class="icon icon-img" src="/images/icons/arrow-line-right-gradient.png" alt="Icon">

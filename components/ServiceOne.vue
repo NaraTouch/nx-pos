@@ -15,7 +15,7 @@
                                 <img src="/images/shape/line-s1.png" alt="shape" />
                             </div>
                             <p>{{ service.desc }}</p>
-                            <n-link to="/causes-details" class="btn-theme btn-white btn-border btn-size-md">
+                            <n-link to="/pricing-details" class="btn-theme btn-white btn-border btn-size-md">
                                 View Details
                                 <img class="icon icon-img" src="/images/icons/arrow-line-right.png" alt="Icon" />
                             </n-link>
